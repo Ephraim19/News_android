@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "108245116955",
+    "project_id": "news-c5152",
+    "storage_bucket": "news-c5152.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108245116955:android:c4b0193230dce09b5ef0be",
+        "android_client_info": {
+          "package_name": "com.eph.news"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108245116955-fs72uvifb2b3gt5vrrqbobt02hoi4jlg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRlI3ZPV-CEhwjPQmGstefSNB1v8lQl6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108245116955-fs72uvifb2b3gt5vrrqbobt02hoi4jlg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
