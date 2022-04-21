@@ -14,19 +14,29 @@
             android:exported="false" />
         <activity
             android:name=".ui.MainActivity"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:exported="true">
         </activity>
         <activity
             android:name=".ui.Login"
-            android:exported="false" />
-        <activity
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
             android:name=".ui.AddNews"
             android:exported="false" />
     </application>
 
 </manifest>
+
+
+
+
+
+
+
+
+
+
