@@ -71,7 +71,7 @@ public class Login extends AppCompatActivity {
                 .addOnCompleteListener(this,task -> {
                     if(task.isSuccessful()) {
                         Toast.makeText(Login.this, "Logging in...", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(Login.this, MainActivity.class);
+                        Intent intent = new Intent(Login.this, MainActivity2.class);
                         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
 
                         //Saving the uid to shared preferences
@@ -100,17 +100,17 @@ public class Login extends AppCompatActivity {
     public void onStart() {
         super.onStart();
         FirebaseUser currentUser = mAuth.getCurrentUser();
-        updateUI(currentUser);
+        //updateUI(currentUser);
     }
 
-    //Logging in user automatically if they did not log out
-    private void updateUI(FirebaseUser currentUser) {
-        if (currentUser != null){
-            Toast.makeText(getApplicationContext(),"Logged in",Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(Login.this, MainActivity.class);
-            startActivity(intent);
-        }
-    }
+//    //Logging in user automatically if they did not log out
+//    private void updateUI(FirebaseUser currentUser) {
+//        if (currentUser != null){
+//            Toast.makeText(getApplicationContext(),"Logged in",Toast.LENGTH_SHORT).show();
+//            Intent intent = new Intent(Login.this, MainActivity2.class);
+//            startActivity(intent);
+//        }
+//    }
 }
 
 
